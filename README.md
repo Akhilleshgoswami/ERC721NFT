@@ -3,16 +3,7 @@
 This project creates a smart contract and then deploys it to Rinkeby public testnet.
 NFT's can then be minted by sending transaction to the deployed smart contract.
 
-Find the NFT's on Opensea testnet:
 
-https://testnets.opensea.io/assets/0x1e9930Bc5f39dE0515BeC52612bc4510F7B236C0/1
-
-https://testnets.opensea.io/assets/0xD6c24c9A49271bFe5a04B00363EB521a02768bA1/1
-
-<img width="1332" alt="Screenshot 2021-09-05 at 8 44 23 PM" src="https://user-images.githubusercontent.com/4893002/132132564-b0fb8524-3035-4e61-85db-17e5fda1fad6.png">
-
-## Follow the Youtube tutorial here:  
-[![MINT NFT TUTORIAL](https://img.youtube.com/vi/axdymRYSHTs/0.jpg)](https://www.youtube.com/watch?v=axdymRYSHTs)
 
 ### Dependencies:
 * `NodeJS`   
@@ -53,15 +44,6 @@ https://www.trufflesuite.com/ganache
    Run `await art.claimItem('https://ipfs.io/ipfs/QmREBUVuoeX39eB9KiQjp25RFr2dhYF6zawpYXq1UPJXEz')`   
    Pass the correct metadata file IPFS address to claimItem.  
    Run `art.address` to get contract address.  
-
-8. Checkout your NFT on 
-  `https://testnets.opensea.io/assets/contract_address/tokenId`.   
-   You can also verify your metadata using on https://rinkeby-api.opensea.io/asset/contract_address/tokenId/validate     
-   eg: https://rinkeby-api.opensea.io/asset/0x1e9930Bc5f39dE0515BeC52612bc4510F7B236C0/1/validate
-  
-
-   Party!!🥳🥳
-
 
 
 
